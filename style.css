@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Delicious+Handrawn&family=Rufina:wght@400;700&display=swap');
+
+body {
+    cursor: url('./imagens/heart_15675399.png'), auto !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.titulo {
+    font-family: 'Shrikhand', sans-serif;
+    background-color: #ba94c5;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.container-fluid {
+    background-color: #b494c5;
+}
+
+.nav-pills {
+    background-color: #b494c5;
+    font-family: 'Rufina', sans-serif;
+
+    .nav-link.active {
+        background-color: #aad4f4 !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+}
+
+.col {
+    min-height: 899px;
+}
+
+.imagemPessoal,
+.textoPessoal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.tituloh2 {
+    font-family: 'Shrikhand', sans-serif;
+    color: #daa520;
+    margin-top: 300px;
+    margin-left: 100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.textoPessoal {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-family: 'Delicious Handrawn';
+    color: black;
+    text-shadow: 2px 2px 4px rgba(218, 165, 32, 0.2);
+    background-color: #aad4f4;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+.row .col:first-child {
+    background-color: #fde780;
+    padding: 20px;
+}
+
+.row .col:nth-child(2) {
+    background-color: #f8d4e2;
+    padding: 20px;
+}
+
+.imagem-sobreposta {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    transform: translate(-50%);
+    z-index: 10;
+
+    img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.rabisco-sobreposta {
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+
+.aviao-sobreposta {
+    position: absolute;
+    top: 700px;
+    left: 90%;
+    transform: translate(-50%);
+    z-index: 10;
+
+    img {
+        width: 150px;
+        height: 150px
+    }
+}
+
+.camera-sobreposta {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    transform: translate(-50%);
+    transform: rotate(-20deg);
+    z-index: 10;
+
+    img {
+        width: 120px;
+        height: 120px
+    }
+}
+
+.pata-sobreposta {
+    position: absolute;
+    top: 200px;
+    left: 90%;
+    transform: translate(-50%);
+    z-index: 10;
+    transform: rotate(-30deg);
+
+    img {
+        width: 90px;
+        height: 90px
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8d4e2;
+    font-size: 16px;
+    margin-top: auto;
+}
